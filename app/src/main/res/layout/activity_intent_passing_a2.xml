@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".intent_passingA2"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="349dp"
+        android:layout_height="63dp"
+        android:text="Customer Details"
+        android:textColor="@color/black"
+        android:textSize="38sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="username"
+        android:textSize="35sp"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:id="@+id/tvAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        android:textSize="35sp"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:id="@+id/tvGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:textSize="35sp"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="35sp"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:id="@+id/tvPhone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone Number"
+        android:textSize="35sp"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:id="@+id/Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textSize="35sp"
+        android:maxLines="1"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:id="@+id/tvInformation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Above information is correct"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+</LineraLayout>
+
+
